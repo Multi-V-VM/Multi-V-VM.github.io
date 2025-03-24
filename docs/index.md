@@ -1,6 +1,8 @@
 ---
-template: home.html
-title: 'Multi-V-VM: Migration based on WebAssembly'
+title: Multi-V-VM: Migration based on WebAssembly
+hide:
+  - navigation
+  - toc
 ---
 
 *Any problem in computer science can be solved with another level of indirection.  -Butler Lampson*
