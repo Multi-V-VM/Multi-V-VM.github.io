@@ -23,7 +23,7 @@ jobs:
           pip install "mkdocs-material[imaging]"
 
       - name: Build page
-        if: github.event_name == 'pull_request'
+        if: github.event_name == 'push'
         run: |
           mkdocs build -v
 
